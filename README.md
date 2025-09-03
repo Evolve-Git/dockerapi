@@ -1,6 +1,6 @@
 Требования к окружению:
 pymysql, bcrypt, dotenv, pydantic, fastapi, jose
-Сначала поднимаем MySql в контейнере:
+  Сначала поднимаем MySql в контейнере:
 docker run -d \                                                                                                                                  
   --name mysql-atk \
   -e MYSQL_ROOT_PASSWORD=rootpass \
@@ -9,13 +9,13 @@ docker run -d \
   -e MYSQL_PASSWORD=pass \
   -p 3306:3306 \
   mysql:8.0
-В проекте запускаем выполнение сценария создания и заполнения бд:
-python setup_db.py
-Запускаем проект:
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-Swagger UI доступен на http://localhost:8000/docs#/
-Доступные данные для авторизации:
-user1:user1pw, user2:user2pw, user3:user3pw
+  В проекте запускаем выполнение сценария создания и заполнения бд:
+  python setup_db.py
+  Запускаем проект:
+  uvicorn main:app --reload --host 0.0.0.0 --port 8000
+  Swagger UI доступен на http://localhost:8000/docs#/
+  Доступные данные для авторизации:
+  user1:user1pw, user2:user2pw, user3:user3pw
 В окне авторизации игнорировать поля client_id и client_sercet.
 <img width="639" height="587" alt="image" src="https://github.com/user-attachments/assets/2e38e105-0ba2-43c0-a575-3ed99ee48cfb" />
 Проверка работоспособности:
