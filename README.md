@@ -17,7 +17,7 @@ Swagger UI доступен на http://localhost:8000/docs#/ \
 Доступные данные для авторизации: \
 user1:user1pw, user2:user2pw, user3:user3pw \
 В окне авторизации игнорировать поля client_id и client_sercet. \
-<img width="639" height="587" alt="image" src="https://github.com/user-attachments/assets/2e38e105-0ba2-43c0-a575-3ed99ee48cfb" />
+<img width="639" height="587" alt="image" src="https://github.com/user-attachments/assets/2e38e105-0ba2-43c0-a575-3ed99ee48cfb" /> \
 Проверка работоспособности: \
 <img width="713" height="967" alt="image" src="https://github.com/user-attachments/assets/0211b792-77b0-407d-bb0a-568bb6057416" />
 <img width="1419" height="966" alt="image" src="https://github.com/user-attachments/assets/fe01f57a-d394-449c-930d-12ed9a700e2d" />
