@@ -1,6 +1,6 @@
-Требования к окружению: 
-pymysql, bcrypt, dotenv, pydantic, fastapi, jose 
-  Сначала поднимаем MySql в контейнере:
+Требования к окружению: \
+pymysql, bcrypt, dotenv, pydantic, fastapi, jose \
+Сначала поднимаем MySql в контейнере: \
 docker run -d \                                                                                                                                  
   --name mysql-atk \
   -e MYSQL_ROOT_PASSWORD=rootpass \
